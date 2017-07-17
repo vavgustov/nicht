@@ -1,3 +1,5 @@
+require 'awesome_print'
+
 module Nicht
   class Stats
     def initialize(path, search = nil)
