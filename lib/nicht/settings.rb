@@ -5,7 +5,7 @@ module Nicht
     FILENAME = '~/.nichtrc'.freeze
 
     def initialize(path)
-      @path = path
+      @path = File.expand_path path
     end
 
     def valid?

@@ -10,7 +10,7 @@ module Nicht
       begin
         projects_path = settings.valid?
       rescue Nicht::SettingsNotFound
-        puts 'Settings not found. You should create .nichrc with settings in your home directory.'
+        puts 'Settings not found. You should create .nichtrc with settings in your home directory.'
       rescue Nicht::SettingsNotValid
         puts 'Settings are not valid.'
       else

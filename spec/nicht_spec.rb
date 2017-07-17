@@ -15,7 +15,7 @@ RSpec.describe Nicht do
       let(:result) { Nicht.run not_existing_path }
 
       it 'show message that settings not exist' do
-        expect { result }.to output(/Settings not found. You should create .nichrc with settings in your home directory./).to_stdout
+        expect { result }.to output(/Settings not found. You should create .nichtrc with settings in your home directory./).to_stdout
       end
     end
 
