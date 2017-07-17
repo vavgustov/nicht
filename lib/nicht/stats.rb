@@ -6,6 +6,15 @@ module Nicht
       @stats = { per_project: {}, per_gem: {} }
     end
 
+    def render
+      Dir[@path].each do |path|
+        scan_project path
+      end
+      output
+    end
+
+    private
+    
     def scan_record(line, project_name)
       candidate = line.split(',').shift.split ' '
       gem_name = candidate.last
@@ -30,13 +39,6 @@ module Nicht
           scan_record(line, project_name)
         end
       end
-    end
-
-    def render
-      Dir[@path].each do |path|
-        scan_project path
-      end
-      output
     end
 
     def output
