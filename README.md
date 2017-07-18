@@ -11,9 +11,6 @@ gem install nicht
 ```
 
 Then create `.nichtrc` file in your home directory with path to the projects. 
-See the example below:
-
-![image](https://user-images.githubusercontent.com/312873/28326118-8e445798-6be8-11e7-85e1-6f02807c9185.png)
 
 ## Usage
 
