@@ -16,11 +16,12 @@ module Nicht
     end
 
     private
-    
+
     def scan_record(line, project_name)
       candidate = line.split(',').shift.split ' '
+      return unless candidate.first == 'gem'
       gem_name = candidate.last
-      return unless candidate.first == 'gem' || %w[* #].include?(gem_name[0])
+      return if %w[* #].include?(gem_name[0])
       add_stat(gem_name, project_name)
     end
 
