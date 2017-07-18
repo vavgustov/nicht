@@ -33,7 +33,7 @@ RSpec.describe Nicht do
       let(:result) { Nicht.run settings, 'sinatra' }
 
       it 'render stats' do
-        expect { result }.to output(/sinatra/).to_stdout
+        expect { result }.to output(/two/).to_stdout
       end
     end
   end
