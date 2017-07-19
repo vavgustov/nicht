@@ -8,7 +8,7 @@ module Nicht
     def run(path, search = nil)
       settings = Nicht::Settings.new path
       begin
-        projects_path = settings.valid?
+        projects_path = settings.get_path
       rescue Nicht::SettingsNotFound
         puts 'Settings not found. You should create .nichtrc with settings in your home directory.'
       rescue Nicht::SettingsNotValid
