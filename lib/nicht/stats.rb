@@ -45,15 +45,23 @@ module Nicht
     end
 
     def output
-      if @search.nil?
-        ap @stats[:per_project]
+      @search.nil? ? dump_per_project : dump_per_gem
+    end
+
+    def dump_per_project
+      @stats[:per_project].each_key do |key|
+        @stats[:per_project][key].sort!
+      end
+      ap @stats[:per_project]
+    end
+
+    def dump_per_gem
+      @stats[:per_gem] = @stats[:per_gem].sort.to_h
+      dump_gems = @stats[:per_gem][@search] ? @stats[:per_gem][@search] : @stats[:per_gem].select { |k, v| k.include? @search }
+      if dump_gems.empty?
+        puts "No matches found for '#{@search}'"
       else
-        dump_gems = @stats[:per_gem][@search] ? @stats[:per_gem][@search] : @stats[:per_gem].select { |k, v| k.include? @search }
-        if dump_gems.empty?
-          puts "No matches found for '#{@search}'"
-        else
-          ap dump_gems
-        end
+        ap dump_gems
       end
     end
   end
