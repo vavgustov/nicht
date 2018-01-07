@@ -19,3 +19,7 @@ Pass gem name as argument to see the list of the projects which use this gem:
 ```bash
 nicht webpacker
 ```
+
+## License
+
+Nicht is released under the [MIT License](https://opensource.org/licenses/MIT).
