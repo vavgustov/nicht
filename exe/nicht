@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'nicht'
+require "nicht"
 
 Nicht.run Nicht::Settings::FILENAME, ARGV.first

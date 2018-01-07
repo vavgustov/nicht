@@ -1,9 +1,9 @@
-require 'awesome_print'
+require "awesome_print"
 
 module Nicht
   class Stats
     def initialize(path, search = nil)
-      @path = path + '/**/Gemfile'
+      @path = "#{path}/**/Gemfile"
       @search = search
       @stats = { per_project: {}, per_gem: {} }
     end

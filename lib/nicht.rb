@@ -1,7 +1,7 @@
-require 'nicht/exceptions'
-require 'nicht/settings'
-require 'nicht/stats'
-require 'nicht/version'
+require "nicht/exceptions"
+require "nicht/settings"
+require "nicht/stats"
+require "nicht/version"
 
 module Nicht
   class << self
@@ -10,9 +10,9 @@ module Nicht
       begin
         projects_path = settings.get_path
       rescue Nicht::SettingsNotFound
-        puts 'Settings not found. You should create .nichtrc with settings in your home directory.'
+        puts "Settings not found. You should create .nichtrc with settings in your home directory."
       rescue Nicht::SettingsNotValid
-        puts 'Settings are not valid.'
+        puts "Settings are not valid."
       else
         render_results(projects_path, search)
       end
