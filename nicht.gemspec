@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Vladimir Avgustov"]
   spec.email         = ["vavgustov@gmail.com"]
 
-  spec.summary       = "This library allow you to see gems usage per your projects."
-  spec.description   = "This library allow you to see gems usage per your projects."
+  spec.summary       = %q{This library allow you to see gems usage per your projects.}
+  spec.description   = %q{This library allow you to see gems usage per your projects.}
   spec.homepage      = "https://github.com/vavgustov/nicht"
   spec.license       = "MIT"
 
@@ -23,9 +23,9 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.15"
+  spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
 
-  spec.add_runtime_dependency "awesome_print", "~> 1.8"
+  spec.add_runtime_dependency "awesome_print", ">= 1.6", "< 1.9"
 end
