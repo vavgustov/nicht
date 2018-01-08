@@ -1,4 +1,6 @@
-# Nicht [![Gem](https://img.shields.io/gem/v/nicht.svg)](https://rubygems.org/gems/nicht) [![Build Status](https://img.shields.io/travis/vavgustov/nicht/master.svg)](https://travis-ci.org/vavgustov/nicht) [![Code Climate](https://img.shields.io/codeclimate/maintainability/Nickersoft/dql.svg)](https://codeclimate.com/github/vavgustov/nicht) [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+# Nicht [![Gem](https://img.shields.io/gem/v/nicht.svg)](https://rubygems.org/gems/nicht) [![Build Status](https://img.shields.io/travis/vavgustov/nicht/master.svg)](https://travis-ci.org/vavgustov/nicht) [![Code Climate](https://img.shields.io/codeclimate/maintainability/Nickersoft/dql.svg)](https://codeclimate.com/github/vavgustov/nicht)
+
+# Nicht [![Gem Version](https://badge.fury.io/rb/nicht.svg)](https://badge.fury.io/rb/nicht) [![Build Status](https://travis-ci.org/vavgustov/nicht.svg)](https://travis-ci.org/vavgustov/nicht) [![Maintainability](https://api.codeclimate.com/v1/badges/07213753a4c9e6863edc/maintainability)](https://codeclimate.com/github/vavgustov/nicht/maintainability)
 
 This library allow you to see gems usage per your or 3rd-party projects.
 
