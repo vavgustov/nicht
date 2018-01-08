@@ -1,4 +1,4 @@
-# Nicht [![Gem](https://img.shields.io/gem/v/nicht.svg)](https://rubygems.org/gems/nicht) [![Build Status](https://img.shields.io/travis/vavgustov/nicht/master.svg)](https://travis-ci.org/vavgustov/nicht) [![Code Climate](https://img.shields.io/codeclimate/c/Nickersoft/dql.svg)](https://codeclimate.com/github/vavgustov/nicht)
+# Nicht [![Gem](https://img.shields.io/gem/v/nicht.svg)](https://rubygems.org/gems/nicht) [![Build Status](https://img.shields.io/travis/vavgustov/nicht/master.svg)](https://travis-ci.org/vavgustov/nicht) [![Code Climate](https://img.shields.io/codeclimate/maintainability/Nickersoft/dql.svg)](https://codeclimate.com/github/vavgustov/nicht)
 
 This library allow you to see gems usage per your or 3rd-party projects.
 
