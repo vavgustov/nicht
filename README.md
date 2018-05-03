@@ -1,5 +1,4 @@
-# Nicht 
-[![Gem](https://img.shields.io/gem/v/nicht.svg)](https://rubygems.org/gems/nicht) 
+# Nicht  
 [![Build Status](https://travis-ci.org/vavgustov/nicht.svg?branch=master)](https://travis-ci.org/vavgustov/nicht) 
 [![Maintainability](https://api.codeclimate.com/v1/badges/07213753a4c9e6863edc/maintainability)](https://codeclimate.com/github/vavgustov/nicht/maintainability) 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/07213753a4c9e6863edc/test_coverage)](https://codeclimate.com/github/vavgustov/nicht/test_coverage)
